@@ -1,0 +1,43 @@
+body {
+    background: #6D637B;
+}
+
+img {
+    /* 16299_10152453068786263_5662911967803183478_n 1 */
+    position: static;
+    width: 411px;
+    height: 409px;
+    left: 10px;
+    top: 10px;
+    background: url(16299_10152453068786263_5662911967803183478_n.jpg);
+    border-radius: 601px;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: center;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+h1 {
+    /* Hi, I’m Charly */
+    position: static;
+    width: 449px;
+    height: 95px;
+    left: 431px;
+    top: 167px;
+    font-family: Tuffy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 95px;
+    /* identical to box height */
+    text-align: center;
+    color: #FA82AF;
+    /* Inside Auto Layout */
+    flex: none;
+    order: 1;
+    align-self: center;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
