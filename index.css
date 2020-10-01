@@ -17,6 +17,7 @@ img {
     border-radius: 500px;
     max-width: 500px;
     height: auto;
+    /* background: red; */
 }
 
 #title {
@@ -26,6 +27,8 @@ img {
     margin-bottom: 100px;
     margin-left: 200px;
     margin-right: 200px;
+    padding-bottom: 100px;
+    /* background: white; */
 }
 
 #name-and-description {
@@ -36,6 +39,7 @@ img {
     margin-right: 200px;
     width: 600px;
     margin-bottom: 100px;
+    /* background: red; */
 }
 
 
@@ -49,6 +53,7 @@ img {
     margin-right: 200px;
     margin-bottom: 100px;
     padding-bottom: 50px;
+    /* background: white; */
 }
 
 h1 {
@@ -67,7 +72,7 @@ h2 {
     font-weight: bold;
     font-size: 50px;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
     color: #0C416C;
 }
 
@@ -109,33 +114,40 @@ p {
     position: relative;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: space-evenly;
+    /* background-color: green; */
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .project {
+    display: flex;
+    align-items: center;
     float: left;
-    width: 31%;
+    width: 90%;
     margin: 1% 1% 45px 1%;
+    /* background-color: orange; */
 }
 
 .project-name {
     display: flex;
-    position: absolute;
     bottom: 0px;
     font-family: 'Peddana', serif;
     font-style: normal;
+    align-items: center;
     font-size: 30px;
-    align-items: right;
 }
 
 .project img {
     width: 100%;
-    display: block;
+    display: flex;
     border-radius: 300px;
     max-width: 300px;
     height: auto;
     align-items: center;
+    padding: 100px;
+    /* background-color: purple; */
 }
 
 
@@ -146,7 +158,8 @@ p {
     overflow: hidden;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding-bottom: 200px;
 }
 
 .interest {
