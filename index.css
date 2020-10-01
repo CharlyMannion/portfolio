@@ -14,13 +14,16 @@ body {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 #name-and-description {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: 100px;
+    margin-left: 200px;
+    margin-right: 100px;
     width: 600px;
     margin-bottom: 100px;
 }
@@ -30,17 +33,27 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-bottom: 100px;
+    background-color: white;
+}
+
+#container {
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    background-color: white;
+    padding-bottom: 50px;
 }
 
 #projects {
+    position: relative;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    margin-left: 40px;
-    margin-bottom: 100px;
+    background-color: white;
 }
 
 #interests {
@@ -52,10 +65,35 @@ body {
     margin-bottom: 100px;
 }
 
+.project {
+    float: left;
+    width: 31%;
+    margin: 1% 1% 45px 1%;
+}
+
+.project-name {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.project img {
+    width: 100%;
+    display: block;
+    border-radius: 0px;
+    max-width: 200px;
+    height: auto;
+}
+
 img {
     /* 16299_10152453068786263_5662911967803183478_n 1 */
     background: url(16299_10152453068786263_5662911967803183478_n.jpg);
-    border-radius: 601px;
+    border-radius: 500px;
+    max-width: 500px;
+    height: auto;
 }
 
 h1 {
@@ -76,7 +114,7 @@ h2 {
     font-weight: bold;
     font-size: 50px;
     line-height: 40px;
-    text-align: left;
+    text-align: center;
     color: #F0D79D;
 }
 
