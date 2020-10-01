@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     margin-left: 200px;
-    margin-right: 100px;
+    margin-right: 200px;
     width: 600px;
     margin-bottom: 100px;
 }
@@ -36,14 +36,12 @@ body {
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
-    background-color: white;
 }
 
 #container {
     margin-left: 200px;
     margin-right: 200px;
     margin-bottom: 100px;
-    background-color: white;
     padding-bottom: 50px;
 }
 
@@ -53,7 +51,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: white;
 }
 
 #interests {
@@ -75,17 +72,21 @@ body {
     display: flex;
     position: absolute;
     bottom: 0px;
-    font-family: Arial, sans-serif;
+    font-family: 'Peddana', serif;
     font-style: normal;
-    font-size: 14px;
+    font-size: 30px;
+    align-items: center;
 }
 
 .project img {
     width: 100%;
     display: block;
-    border-radius: 0px;
-    max-width: 200px;
+    border-radius: 300px;
+    max-width: 300px;
     height: auto;
+    align-items: center;
+    /* border-radius: 100%;
+    border: 2px solid #0C416C; */
 }
 
 img {
@@ -94,32 +95,33 @@ img {
     border-radius: 500px;
     max-width: 500px;
     height: auto;
+    /* border-radius: 100%;
+    border: 2px solid #0C416C; */
 }
 
 h1 {
-    /* Hi, I’m Charly */
-    font-family: Arial, sans-serif;
+    /* Charly */
+    font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 64px;
+    font-size: 100px;
     line-height: 95px;
-    /* identical to box height */
     text-align: center;
-    color: #FA82AF;
+    color: #0C416C;
 }
 
 h2 {
-    font-family: Arial, sans-serif;
+    font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 50px;
     line-height: 40px;
-    text-align: center;
-    color: #F0D79D;
+    text-align: left;
+    color: #0C416C;
 }
 
 h3 {
-    font-family: Arial, sans-serif;
+    font-family: Peddana Regular 400;
     font-style: normal;
     font-weight: bold;
     font-size: 20px;
@@ -127,8 +129,18 @@ h3 {
     color: #0C416C;
 }
 
+h4 {
+    font-family: 'Peddana', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 40px;
+    text-align: center;
+    color: #0C416C;
+}
+
 p {
-    font-family: Arial, sans-serif;
+    font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -137,7 +149,7 @@ p {
 }
 
 ul {
-    font-family: Arial, sans-serif;
+    font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;

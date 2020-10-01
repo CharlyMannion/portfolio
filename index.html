@@ -6,17 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Charly's Portfolio</title>
     <link rel="stylesheet" href="index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Peddana&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div id="homepage">
-        <div id="title">
+        <div id="title" data-aos="fade-in" data-aos-delay="300">
             <img src="./images/meTokyo.jpg" alt="me in Tokyo">
             <div id="name-and-description">
-                <h1>Charly Mannion</h1>
+                <h1>Charly</h1>
             </div>
         </div>
-        <div id="container">
+        <div id="container" data-aos="fade-in" data-aos-delay="300">
             <h2>Projects</h2>
 
             <div id="projects">
@@ -37,8 +39,25 @@
                 </div>
             </div>
         </div>
-        <div id="contact">
-            <h2>Contact Me</h2>
+        <div id="container" data-aos="fade-in" data-aos-delay="300">
+            <h2>Interests</h2>
+
+            <div id="projects">
+                <div class="project">
+                    <img src="./images/corchetjasmine.jpg" class="img-responsive img-thumbnail" alt="Crochet" />
+                    <!-- <div class="project-name">Crochet</div> -->
+                </div>
+                <div class="project">
+                    <img src="./images/bouldering.jpg" class="img-responsive img-thumbnail" alt="Climbing" />
+                    <!-- <div class="project-name">Climbing</div> -->
+                </div>
+                <div class="project">
+                    <img src="./images/beach2.jpg" class="img-responsive img-thumbnail" alt="Photography" />
+                    <!-- <div class="project-name">Photography</div> -->
+                </div>
+            </div>
+        </div>
+        <div id="contact" data-aos="fade-in" data-aos-delay="300">
             <p align="center">
                 <a href="mailto:charlottemannion100@gmail.com">
                     <img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-128.png" alt="gmal" hspace="50" height="42" width="42"></a>
@@ -52,15 +71,11 @@
                     <img src="./images/iconfinder_twitter_circle_294709.png" alt="twitter" hspace="50" height="42" width="42"></a>
             </p>
         </div>
-        <!-- <div id="interests">
-            <h2>Interests</h2>
-            <ul>
-                <li>photography</li>
-                <li>crotchet</li>
-                <li>bouldering</li>
-            </ul>
-        </div> -->
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
