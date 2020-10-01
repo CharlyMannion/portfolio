@@ -124,9 +124,11 @@ p {
 .project {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     float: left;
     width: 90%;
     margin: 1% 1% 45px 1%;
+    padding-top: 50px;
     /* background-color: orange; */
 }
 
@@ -146,7 +148,6 @@ p {
     max-width: 300px;
     height: auto;
     align-items: center;
-    padding: 100px;
     /* background-color: purple; */
 }
 
@@ -166,6 +167,7 @@ p {
     float: left;
     width: 31%;
     margin: 1% 1% 45px 1%;
+    padding-top: 50px;
 }
 
 .interest img {
