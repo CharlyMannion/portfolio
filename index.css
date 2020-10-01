@@ -17,29 +17,25 @@ img {
     border-radius: 500px;
     max-width: 500px;
     height: auto;
-    /* background: red; */
 }
 
 #title {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-bottom: 100px;
     margin-left: 200px;
     margin-right: 200px;
     padding-bottom: 100px;
-    /* background: white; */
 }
 
 #name-and-description {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-left: 200px;
     margin-right: 200px;
-    width: 600px;
     margin-bottom: 100px;
-    /* background: red; */
 }
 
 
@@ -53,7 +49,6 @@ img {
     margin-right: 200px;
     margin-bottom: 100px;
     padding-bottom: 50px;
-    /* background: white; */
 }
 
 h1 {
@@ -70,17 +65,17 @@ h2 {
     font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
     line-height: 40px;
     text-align: center;
     color: #0C416C;
 }
 
 h3 {
-    font-family: Peddana Regular 400;
+    font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 36px;
     color: #0C416C;
 }
@@ -99,24 +94,71 @@ p {
     font-family: 'Peddana', serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 36px;
+    text-align: center;
     color: #0C416C;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Peddana', serif;
+    font-style: normal;
+    font-size: 40px;
 }
 
 
 /* end of reusable */
 
 
+/* skills */
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#skill-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.icon-container {
+    width: 10rem;
+    height: 10rem;
+    background-color: transparent;
+    display: flex;
+}
+
+.icon-container i {
+    font-size: 10rem;
+    margin: auto;
+}
+
+
 /* projects */
 
 #projects {
-    position: relative;
-    overflow: hidden;
+    /* position: relative; */
+    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    /* background-color: green; */
     align-items: center;
     justify-content: flex-end;
 }
@@ -129,7 +171,6 @@ p {
     width: 90%;
     margin: 1% 1% 45px 1%;
     padding-top: 50px;
-    /* background-color: orange; */
 }
 
 .project-name {
@@ -145,26 +186,26 @@ p {
     width: 100%;
     display: flex;
     border-radius: 300px;
-    max-width: 300px;
+    max-width: 400px;
     height: auto;
     align-items: center;
-    /* background-color: purple; */
 }
 
 
 /* interests */
 
 #interests {
-    position: relative;
-    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 .interest {
-    float: left;
+    /* float: left; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 31%;
     margin: 1% 1% 45px 1%;
     padding-top: 50px;
