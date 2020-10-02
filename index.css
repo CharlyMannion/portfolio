@@ -9,6 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    width: 100%;
     margin-top: 10rem;
     padding-right: 10rem;
 }
@@ -26,7 +27,7 @@ img {
 #title {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-bottom: 10rem;
     margin-left: 20rem;
     margin-right: 20rem;
@@ -37,9 +38,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* margin-left: 20rem;
-    margin-right: 20rem;
-    padding-right: 10rem; */
+    width: 100%;
     margin-bottom: 10rem;
 }
 
@@ -119,29 +118,21 @@ a {
 /* skills */
 
 skills {
+    width: 80%;
+    max-width: 70rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 10rem;
+}
+
+#skill-body {
     margin-top: 10rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    grid-gap: 2.5rem;
+    grid-gap: 1.5rem;
     text-align: center;
-}
-
-
-/* #skills {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
     padding-bottom: 10rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
-} */
-
-#skill-body {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .skill {
@@ -220,7 +211,7 @@ skills {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 31%;
     margin: 1% 1% 4.5rem 1%;
     padding-top: 5rem;
