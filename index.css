@@ -52,49 +52,49 @@ img {
 }
 
 h1 {
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 100px;
+    font-size: 70px;
     line-height: 95px;
     text-align: center;
     color: whitesmoke;
 }
 
 h2 {
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 40px;
     line-height: 40px;
     text-align: center;
     color: whitesmoke;
 }
 
 h3 {
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 36px;
     color: whitesmoke;
 }
 
 h4 {
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 30px;
     line-height: 40px;
     text-align: center;
     color: whitesmoke;
 }
 
 p {
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 15px;
     line-height: 36px;
     text-align: center;
     color: whitesmoke;
@@ -102,9 +102,9 @@ p {
 
 a {
     text-decoration: none;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 40px;
+    font-size: 20px;
 }
 
 
@@ -166,20 +166,20 @@ a {
 .project {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     float: left;
     width: 90%;
     margin: 1% 1% 45px 1%;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .project-name {
     display: flex;
     bottom: 0px;
-    font-family: 'Peddana', serif;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    align-items: center;
-    font-size: 30px;
+    align-items: left;
+    font-size: 25px;
 }
 
 .project img {
