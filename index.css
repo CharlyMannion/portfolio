@@ -6,7 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 10rem;
+    padding-right: 10rem;
 }
 
 
@@ -14,8 +15,8 @@ body {
 
 img {
     background: url(16299_10152453068786263_5662911967803183478_n.jpg);
-    border-radius: 500px;
-    max-width: 500px;
+    border-radius: 40rem;
+    max-width: 40rem;
     height: auto;
 }
 
@@ -23,19 +24,20 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-    padding-bottom: 100px;
+    margin-bottom: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    padding-bottom: 10rem;
 }
 
 #name-and-description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
+    /* margin-left: 20rem;
+    margin-right: 20rem;
+    padding-right: 10rem; */
+    margin-bottom: 10rem;
 }
 
 
@@ -45,18 +47,18 @@ img {
 /* re-usable */
 
 #container {
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 100px;
-    padding-bottom: 50px;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    margin-bottom: 10rem;
+    padding-bottom: 5rem;
 }
 
 h1 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 70px;
-    line-height: 95px;
+    font-size: 5rem;
+    line-height: 5rem;
     text-align: center;
     color: whitesmoke;
 }
@@ -65,8 +67,8 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 3rem;
+    line-height: 3rem;
     text-align: center;
     color: whitesmoke;
 }
@@ -75,8 +77,8 @@ h3 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 36px;
+    font-size: 2rem;
+    line-height: 2rem;
     color: whitesmoke;
 }
 
@@ -84,8 +86,8 @@ h4 {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 3rem;
+    line-height: 3rem;
     text-align: center;
     color: whitesmoke;
 }
@@ -94,8 +96,8 @@ p {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 15px;
-    line-height: 36px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     text-align: center;
     color: whitesmoke;
 }
@@ -104,7 +106,7 @@ a {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 20px;
+    font-size: 2rem;
 }
 
 
@@ -113,15 +115,24 @@ a {
 
 /* skills */
 
-#skills {
+skills {
+    margin-top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    text-align: center;
+}
+
+
+/* #skills {
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
+    padding-bottom: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
+} */
 
 #skill-body {
     display: flex;
@@ -160,7 +171,7 @@ a {
     justify-content: space-evenly;
     align-items: center;
     justify-content: flex-end;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
 .project {
@@ -170,7 +181,7 @@ a {
     float: left;
     width: 90%;
     margin: 1% 1% 45px 1%;
-    padding-top: 25px;
+    padding-top: 2.5rem;
 }
 
 .project-name {
@@ -178,15 +189,15 @@ a {
     bottom: 0px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    align-items: left;
-    font-size: 25px;
+    align-items: center;
+    font-size: 2.5rem;
 }
 
 .project img {
     width: 100%;
     display: flex;
-    border-radius: 300px;
-    max-width: 400px;
+    border-radius: 30rem;
+    max-width: 30rem;
     height: auto;
     align-items: center;
 }
@@ -198,7 +209,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 100px;
+    padding-bottom: 5rem;
 }
 
 .interest {
@@ -208,15 +219,15 @@ a {
     flex-direction: column;
     justify-content: space-evenly;
     width: 31%;
-    margin: 1% 1% 45px 1%;
-    padding-top: 50px;
+    margin: 1% 1% 4.5rem 1%;
+    padding-top: 5rem;
 }
 
 .interest img {
     width: 100%;
     display: block;
-    border-radius: 300px;
-    max-width: 300px;
+    border-radius: 25rem;
+    max-width: 25rem;
     height: auto;
     align-items: center;
 }
@@ -229,9 +240,9 @@ a {
     justify-content: space-evenly;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding-bottom: 10rem;
+    margin-left: 20rem;
+    margin-right: 20rem;
 }
 
 #contacts-body {
